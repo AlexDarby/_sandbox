@@ -6,6 +6,9 @@ Sylesheet
 ============================
 */
 
+body{
+	background: #DDDDDD;
+}
 
 #container{
 	width: 1000px;
@@ -13,6 +16,43 @@ Sylesheet
 	margin-left: auto;
 }
 
-.ul{
-	
+#menu ul{
+	background: pink;
+	margin-right: auto;
+	margin-left: auto;	
+	text-align: center;
+}
+
+#menu li{
+	color: white;
+	background: green;
+	font-family: Tahoma;
+	display: inline;
+	border: 1px solid black;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#banner{
+	text-align: right;
+	font-family: Tahoma;
+	font-size: 40px;
+}
+
+#content{
+	border: 1px solid black;
+}
+
+#contentleft{
+	float: left;
+	background: red;
+	width: 70%;
+}
+
+#contentright{
+	float: right;
+	background: blue;
+	width: 30%;
 }
