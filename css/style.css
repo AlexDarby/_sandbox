@@ -7,7 +7,7 @@ Sylesheet
 */
 
 body{
-	background: #DDDDDD;
+	background: #B5E6F5;
 }
 
 #container{
@@ -17,21 +17,27 @@ body{
 }
 
 #menu ul{
-	background: pink;
-	margin-right: auto;
-	margin-left: auto;	
 	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5%;
+
 }
 
 #menu li{
-	color: white;
-	background: green;
+	border-radius: 10px;
+	color: black;
+	background: #83E356;
 	font-family: Tahoma;
 	display: inline;
 	border: 1px solid black;
-	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin-right: auto;
 	margin-left: auto;
+	box-shadow: 4px 4px 4px 4px black;
 
 }
 
@@ -42,17 +48,22 @@ body{
 }
 
 #content{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+}
+
+#contentleft, #contentright{
+	background: white;
+	padding: 2.5%;
+	border: 2px solid black;
+
 }
 
 #contentleft{
 	float: left;
-	background: red;
-	width: 70%;
+	width: 65%;
 }
 
 #contentright{
 	float: right;
-	background: blue;
-	width: 30%;
+	width: 22.5%;
 }
